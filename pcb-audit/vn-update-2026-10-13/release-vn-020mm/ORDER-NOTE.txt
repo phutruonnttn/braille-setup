@@ -5,4 +5,4 @@ Requested quantity: FOUR identical small Braille cell PCBs and ONE large evaluat
 Small board: 7.620 x 29.718 mm. Large board: 98.01225 x 89.61120 mm.
 Both are 2-layer, nominal 1.6 mm FR-4, 1 oz copper.
 
-Please run DFM on the enclosed final ZIPs and return the CAM preview before production. The small board has 0.2010 mm minimum ordinary copper clearance, 0.2032 mm tracks, 0.35 mm minimum drill, and a 0.15 mm local fixed-pad exception. Preserve exposed copper/mask openings on both sides of all twelve coil terminals.
+Please run DFM on the enclosed final ZIPs and return the CAM preview before production. The small board has 0.2010 mm minimum ordinary copper clearance, 0.2032 mm tracks, 0.35 mm minimum drill, and a 0.15 mm local fixed-pad exception. The large board has 0.3048 mm minimum routed tracks, 0.35 mm minimum via drill, and 0.7564 mm via outer copper (0.4064 mm diameter difference). Preserve exposed copper/mask openings on both sides of all twelve coil terminals.

@@ -126,8 +126,10 @@ order_note.write_text(
     "Please run DFM on the enclosed final ZIPs and return the CAM preview before "
     "production. The small board has 0.2010 mm minimum ordinary copper clearance, "
     "0.2032 mm tracks, 0.35 mm minimum drill, and a 0.15 mm local fixed-pad "
-    "exception. Preserve exposed copper/mask openings on both sides of all twelve "
-    "coil terminals.\n"
+    "exception. The large board has 0.3048 mm minimum routed tracks, 0.35 mm "
+    "minimum via drill, and 0.7564 mm via outer copper (0.4064 mm diameter "
+    "difference). Preserve exposed copper/mask openings on both sides of all "
+    "twelve coil terminals.\n"
 )
 order_files = [
     order_note,
@@ -148,6 +150,20 @@ source_files = sorted((ROOT / "source").glob("Braille-Cell.kicad_*")) + [
     ROOT / "README-VN-UPDATE.md",
 ]
 make_zip(RELEASE / "Braille-Cell-KiCad-Source-VN-020mm.zip", source_files, ROOT)
+
+evaluation_source_files = sorted(
+    (ROOT / "source").glob("Braille-Evaluation.kicad_*")
+) + [
+    ROOT / "verification" / "Braille-Evaluation-factory-final.json",
+    ROOT / "verification" / "evaluation-factory-drill-report.txt",
+    ROOT / "build_release.py",
+    ROOT / "README-VN-UPDATE.md",
+]
+make_zip(
+    RELEASE / "Braille-Evaluation-KiCad-Source-VN-020mm.zip",
+    evaluation_source_files,
+    ROOT,
+)
 
 hashes = []
 for f in sorted(RELEASE.glob("*.zip")):

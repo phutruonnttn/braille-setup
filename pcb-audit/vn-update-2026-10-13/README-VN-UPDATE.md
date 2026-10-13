@@ -22,12 +22,17 @@ Hai nhóm header 1.27 mm có pad cố định với khe danh nghĩa 0.162 mm, đ
 tra theo ngoại lệ 0.15 mm mà xưởng đã nói có thể chấp nhận.
 
 PCB lớn không đổi routing vì DRC copper theo rule mới không có lỗi.
+Ảnh CAM xưởng gửi đang chồng F.Cu (đỏ) và B.Cu (xanh); khoảng cách đo giữa hai
+lớp không phải clearance trên cùng một lớp. Bộ Gerber PCB lớn đã được xuất lại
+từ source đã áp rule xưởng, thay cho bộ ZIP cũ.
 
 ## Kết quả xác minh
 
 - PCB nhỏ: KiCad DRC 0 violation, 0 unconnected item.
 - PCB lớn: 0 error-level violation, 0 unconnected item. Còn 123 warning:
   122 warning silkscreen/text và 1 via cố ý chỉ nối trên một lớp.
+- PCB lớn: min routed track 0.3048 mm; via drill 0.35 mm; via outer copper
+  0.7564 mm, chênh đường kính 0.4064 mm.
 - PCB nhỏ: 7.620 x 29.718 mm; min track clearance 0.2010 mm; min track width
   0.2032 mm; min drill 0.35 mm.
 - Đọc lại Gerber/Excellon bằng `gerbonara`: đúng outline, đủ lớp, đúng 27 PTH
@@ -45,4 +50,3 @@ PCB lớn không đổi routing vì DRC copper theo rule mới không có lỗi.
 
 Xưởng vẫn phải chạy DFM trên đúng ZIP cuối và trả lại tọa độ/layer nếu CAM của
 họ còn báo lỗi. DRC và Gerber readback không thay thế thử nghiệm phần cứng.
-
