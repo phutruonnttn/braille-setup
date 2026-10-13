@@ -1,0 +1,23 @@
+{
+  "Braille-Cell": {
+    "original_contactrefs_verified": 12,
+    "original_tracks": 88,
+    "original_vias": 15,
+    "source_zones": 0,
+    "coil_vias_converted_to_identical_exposed_PTH_pads": 12,
+    "final_tracks": 88,
+    "final_vias": 3,
+    "PTH_pads": 24
+  },
+  "Braille-Evaluation": {
+    "original_contactrefs_verified": 429,
+    "original_tracks": 1238,
+    "original_vias": 183,
+    "source_zones": 2,
+    "LM317_tab": "pad 4 modeled as internally connected output pad 2",
+    "Nano_ground_pad": "solid zone connection instead of one surviving thermal spoke",
+    "final_tracks": 1238,
+    "final_vias": 183,
+    "PTH_pads": 142
+  }
+}

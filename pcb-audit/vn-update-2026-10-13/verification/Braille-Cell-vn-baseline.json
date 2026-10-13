@@ -1,0 +1,611 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T10:37:59",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "Braille-Cell.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 4.3845 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -17.479687
+                    },
+                    "uuid": "dbb83d57-2264-407b-aed5-8e7e11257427"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1552 mm)",
+            "items": [
+                {
+                    "description": "Track [3A] on F.Cu, length 6.0706 mm",
+                    "pos": {
+                        "x": -16.4084,
+                        "y": -10.7442
+                    },
+                    "uuid": "2cff21c1-ee6b-4dd8-b95e-b2149a91bba5"
+                },
+                {
+                    "description": "PTH pad 4B [4B] of COIL_TERMINALS",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -7.3914
+                    },
+                    "uuid": "8645f916-2acb-4bd1-8dd1-1c0cb5238cdb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1951 mm)",
+            "items": [
+                {
+                    "description": "Track [6A] on F.Cu, length 0.4641 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -6.5258
+                    },
+                    "uuid": "253cfebd-1a8f-4358-9d5e-0d1451175066"
+                },
+                {
+                    "description": "PTH pad 5A [5A] of COIL_TERMINALS",
+                    "pos": {
+                        "x": -14.0716,
+                        "y": -5.969
+                    },
+                    "uuid": "44efbd34-c8ca-4c94-8b12-c283a9e8ea15"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1552 mm)",
+            "items": [
+                {
+                    "description": "Track [6A] on F.Cu, length 2.6670 mm",
+                    "pos": {
+                        "x": -13.4366,
+                        "y": -6.1976
+                    },
+                    "uuid": "1c98b0c1-f71b-4815-98b3-4e33a289c4b7"
+                },
+                {
+                    "description": "PTH pad 5A [5A] of COIL_TERMINALS",
+                    "pos": {
+                        "x": -14.0716,
+                        "y": -5.969
+                    },
+                    "uuid": "44efbd34-c8ca-4c94-8b12-c283a9e8ea15"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 1.7214 mm",
+                    "pos": {
+                        "x": -14.6812,
+                        "y": -10.627756
+                    },
+                    "uuid": "c9523f46-6413-494f-915f-0bf9caea44d8"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1786 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 1.7015 mm",
+                    "pos": {
+                        "x": -13.464,
+                        "y": -9.410556
+                    },
+                    "uuid": "5a73caaf-89f9-4271-83ec-0d58ae7430d0"
+                },
+                {
+                    "description": "PTH pad 4A [4A] of COIL_TERMINALS",
+                    "pos": {
+                        "x": -14.1224,
+                        "y": -9.0678
+                    },
+                    "uuid": "a728d51a-b49d-4cd5-8294-8ee93d685149"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 1.7015 mm",
+                    "pos": {
+                        "x": -13.464,
+                        "y": -9.410556
+                    },
+                    "uuid": "5a73caaf-89f9-4271-83ec-0d58ae7430d0"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 0.8593 mm",
+                    "pos": {
+                        "x": -13.464,
+                        "y": -7.709043
+                    },
+                    "uuid": "2c730835-318b-4b9a-b99e-10a8a1b11f61"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 5.4462 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -18.394087
+                    },
+                    "uuid": "1dc21fd9-4878-47f3-a9df-2c091b311d17"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.1427 mm",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.287687
+                    },
+                    "uuid": "a8c0bbf1-dce9-4004-8d86-0f3af21a997b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [3B] on B.Cu, length 0.9339 mm",
+                    "pos": {
+                        "x": -18.4404,
+                        "y": 9.0202
+                    },
+                    "uuid": "5033d42e-e9ce-4273-862e-87650c19b256"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [3B] on B.Cu, length 0.3270 mm",
+                    "pos": {
+                        "x": -18.7674,
+                        "y": 9.0202
+                    },
+                    "uuid": "365e3ca8-5257-4e05-8dd3-02ad5bc0f5c2"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 5.4462 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -18.394087
+                    },
+                    "uuid": "1dc21fd9-4878-47f3-a9df-2c091b311d17"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 4.3845 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -17.479687
+                    },
+                    "uuid": "dbb83d57-2264-407b-aed5-8e7e11257427"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 5.4462 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -18.394087
+                    },
+                    "uuid": "1dc21fd9-4878-47f3-a9df-2c091b311d17"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                },
+                {
+                    "description": "Track [3B] on B.Cu, length 1.0103 mm",
+                    "pos": {
+                        "x": -19.4818,
+                        "y": 8.3058
+                    },
+                    "uuid": "e5044ffa-0634-49ad-9f5f-6a6d77818a41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1532 mm)",
+            "items": [
+                {
+                    "description": "Track [1B] on B.Cu, length 7.4497 mm",
+                    "pos": {
+                        "x": -16.4064,
+                        "y": -6.7684
+                    },
+                    "uuid": "0b6084d6-d49c-4007-be0b-5da5fa7e03ab"
+                },
+                {
+                    "description": "PTH pad 5B [5B] of COIL_TERMINALS",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -4.2672
+                    },
+                    "uuid": "9a4aa623-1213-4ce7-ac96-8e7ad6feca67"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -12.947843
+                    },
+                    "uuid": "69bf68c3-df00-43c7-bca6-5bc7672945fa"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 4.3845 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -17.479687
+                    },
+                    "uuid": "dbb83d57-2264-407b-aed5-8e7e11257427"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1532 mm)",
+            "items": [
+                {
+                    "description": "Track [1B] on B.Cu, length 7.4497 mm",
+                    "pos": {
+                        "x": -16.4064,
+                        "y": -6.7684
+                    },
+                    "uuid": "0b6084d6-d49c-4007-be0b-5da5fa7e03ab"
+                },
+                {
+                    "description": "PTH pad 6B [6B] of COIL_TERMINALS",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -1.1938
+                    },
+                    "uuid": "4535a6e3-8f9a-4414-b0e3-3eff98d5135d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -12.947843
+                    },
+                    "uuid": "69bf68c3-df00-43c7-bca6-5bc7672945fa"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.1427 mm",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.287687
+                    },
+                    "uuid": "a8c0bbf1-dce9-4004-8d86-0f3af21a997b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -12.947843
+                    },
+                    "uuid": "69bf68c3-df00-43c7-bca6-5bc7672945fa"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 2.6351 mm",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -11.702943
+                    },
+                    "uuid": "fe9d068d-3533-4329-a9a4-49dcdc0e3ab5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.4972 mm",
+                    "pos": {
+                        "x": -17.5514,
+                        "y": -11.555643
+                    },
+                    "uuid": "23a9e6da-d7be-42ff-8d61-b852f123bb4f"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.4972 mm",
+                    "pos": {
+                        "x": -17.5514,
+                        "y": -11.555643
+                    },
+                    "uuid": "23a9e6da-d7be-42ff-8d61-b852f123bb4f"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 2.6351 mm",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -11.702943
+                    },
+                    "uuid": "fe9d068d-3533-4329-a9a4-49dcdc0e3ab5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1723 mm",
+                    "pos": {
+                        "x": -18.114687,
+                        "y": -19.223
+                    },
+                    "uuid": "9c957f1d-a1aa-4eaa-a181-06a0ff4590fb"
+                },
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1012 mm",
+                    "pos": {
+                        "x": -17.013512,
+                        "y": -19.223
+                    },
+                    "uuid": "fd51f60a-f06c-4a0e-bf10-6a2145a2cf09"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'VN ordinary copper clearance 0.20mm' clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1136 mm",
+                    "pos": {
+                        "x": -17.5514,
+                        "y": -10.0584
+                    },
+                    "uuid": "5d790612-3565-416b-92c0-5ee9a7ad51ad"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 2.6351 mm",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -11.702943
+                    },
+                    "uuid": "fe9d068d-3533-4329-a9a4-49dcdc0e3ab5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

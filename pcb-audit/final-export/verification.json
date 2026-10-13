@@ -1,0 +1,36 @@
+{
+  "PCB-nho-Gerber.zip": {
+    "outline_centerline_size_mm": [
+      7.62,
+      29.718
+    ],
+    "PTH_count": 27,
+    "NPTH_count": 10,
+    "omitted_empty_layers": [
+      "Braille-Cell-F_Silkscreen.gbr",
+      "Braille-Cell-B_Silkscreen.gbr"
+    ],
+    "copper_mask_outline_bytes_unchanged": true,
+    "drill_geometry_unchanged": true,
+    "job_paths_verified": true,
+    "zip_crc_ok": true,
+    "sha256": "2ea2799ef49277b3fa4715836aaffa22e2dab55b275bdee8b30b0552f61b34d6"
+  },
+  "PCB-to-Gerber.zip": {
+    "outline_centerline_size_mm": [
+      98.01225,
+      89.6112
+    ],
+    "PTH_count": 325,
+    "NPTH_count": 4,
+    "omitted_empty_layers": [
+      "Braille-Evaluation-B_Silkscreen.gbr",
+      "Braille-Evaluation-B_Paste.gbr"
+    ],
+    "copper_mask_outline_bytes_unchanged": true,
+    "drill_geometry_unchanged": true,
+    "job_paths_verified": true,
+    "zip_crc_ok": true,
+    "sha256": "683e21728ce6db4a7722bbf3f18bb4d5892af6ed3344f53851c435f12abb28b2"
+  }
+}

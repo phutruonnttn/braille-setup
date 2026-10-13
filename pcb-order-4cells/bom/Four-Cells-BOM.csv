@@ -1,0 +1,10 @@
+﻿Qty,Designator,Footprint,Comment,LCSC Part #,Description,Value,Manufacturer,MPN / Specification,Assembly,Notes
+4,One per cell,7.620 x 29.718mm; 2-layer,Braille Cell PCB,,Small bare PCB; use new Braille-Cell-Gerbers.zip,Braille Cell PCB,,,PCB fabrication,
+8,Two per cell,2x3; 1.27mm pitch in both directions,Male header,,Straight male through-hole headers; 8 pieces for 4 cells,Male header,Adam Tech / equivalent,HPH2-B-06-UA or dimensionally matching header,Hand solder,Header pin must fit finished 0.60mm holes; match sockets. This is not a battery/JST header.
+24,Six per cell,Diameter 1mm x length 10mm,Ferrite rod,,Uncoated Fair-Rite material 67 ferrite rod,Ferrite rod,Fair-Rite,3067990831,Manual coil assembly,
+24,Six per cell,Diameter 1mm x thickness 0.5mm,NdFeB N52 magnet,,Disc micromagnets; assemble all with consistent polarity,NdFeB N52 magnet,,NdFeB N52 / 1.0 x 0.5mm,Manual assembly,24 needed; 20 magnets are insufficient for 4 cells. Buy spares separately if desired.
+24,Six per cell,Custom wound on 1mm ferrite core,Solenoid coil,,Wind with 0.05mm enamel-insulated copper wire,Solenoid coil,,Wire diameter 50um / 0.05mm; custom winding,Manual winding,"24 coils; winding-turn count/resistance not specified by author, so not invented here."
+24,Six per cell,"Braille Cam, V12 CAD",Printed cam,,3D printed cam,Printed cam,,,3D print / manual,
+24,Six per cell,"Braille Dot, V12 CAD",Printed dot,,3D printed dot,Printed dot,,,3D print / manual,
+4,One per cell,"Braille Upper, V12 CAD",Printed upper,,3D printed upper body,Printed upper,,,3D print / manual,
+4,One per cell,"Braille Lower, V12 CAD",Printed lower,,3D printed lower body,Printed lower,,,3D print / manual,

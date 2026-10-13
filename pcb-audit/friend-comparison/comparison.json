@@ -1,0 +1,44 @@
+{
+  "top/copper": {
+    "equal_geometry_after_origin_alignment": true,
+    "friend_primitives": 79,
+    "ours_primitives": 79
+  },
+  "bottom/copper": {
+    "equal_geometry_after_origin_alignment": true,
+    "friend_primitives": 63,
+    "ours_primitives": 63
+  },
+  "mechanical/outline": {
+    "equal_geometry_after_origin_alignment": true,
+    "friend_primitives": 8,
+    "ours_primitives": 8
+  },
+  "drills": {
+    "equal_positions_and_diameters": true,
+    "count": 37
+  },
+  "friend_to_ours_origin_shift_mm": [
+    20.32,
+    9.779
+  ],
+  "mask_differences": {
+    "friend_exposed_vias": 15,
+    "ours_exposed_coil_terminals": 12,
+    "ours_tented_routing_vias": 3,
+    "friend_coil_mask_diameter_mm": 0.7564,
+    "ours_coil_mask_diameter_mm": 0.8064,
+    "friend_header_mask_expansion_mm": 0.1016,
+    "ours_header_mask_expansion_mm": 0.025,
+    "friend_header_mask_web_mm": -0.0412,
+    "ours_header_mask_web_mm": 0.112
+  },
+  "friend_job_size_mm": [
+    7.8232,
+    29.9213
+  ],
+  "actual_outline_centerline_size_mm": [
+    7.62,
+    29.718
+  ]
+}

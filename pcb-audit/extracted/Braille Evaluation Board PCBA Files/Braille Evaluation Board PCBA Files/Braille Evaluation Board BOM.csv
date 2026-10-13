@@ -1,0 +1,16 @@
+Qty,Designator,Footprint,Comment,LCSC Part #,Description,Value
+1,R1,3362P,3362P,,3362 Series,
+1,J3,1X02,CONN_02,,Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections,
+4,"C1, C2, C3, C4",603,0.1UF-0603-25V-(+80/-20%),,0.1µF ceramic capacitors,0.1uF
+1,C5,603,9.0PF-0603-50V-10%,,9.0pF ceramic capacitors,0.1uF
+1,C6,603,9.0PF-0603-50V-10%,,9.0pF ceramic capacitors,1uf
+56,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56",SOT23-3,BAV99,,Series-pair diode array,200mA/70V
+1,R3,603,RESISTOR0603,,Generic Resistor Package,240R
+4,"IC2, IC3, IC5, IC6",SOIC127P600X175-16N,74HC238D,,"Codeurs, dcodeurs, multiplexeurs et dmultiplexeurs 3-TO-8 DECODER DEMULTIPLEXER",74HC238D
+8,"U$1, U$2, U$3, U$4, U$5, U$6, U$7, U$8",BRAILLE-6,BRAILLE-6,,,BRAILLE-6
+1,U2,SOT223,V_REG_317SMD,,Voltage Regulator,LM317
+1,U$9,NANO,NANO,,Arduino Nano,NANO
+1,LOGO1,OSHW-LOGO-L_COPPER,OSHW-LOGOL-COPPER,,Open-Source Hardware (OSHW) Logo,OSHW-LOGOL-COPPER
+1,J1,POWER_JACK_SLOT,POWER_JACKSLT,,Power Jack Connector,POWER_JACKSLT
+2,"Q1, Q2",SOIC127P1030X245-18N,"TBD62783AFG,EL",,"Gate Drivers DMOS Transistor Array8-CH, 50V/0.5A","TBD62783AFG,EL"
+2,"IC1, IC4",SO18,TD62083,,8ch Darlington Sink Driver,TD62083

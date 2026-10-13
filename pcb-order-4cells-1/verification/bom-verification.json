@@ -1,0 +1,18 @@
+{
+  "large_boards": 1,
+  "small_boards": 4,
+  "active_cell_positions": [
+    "U$1",
+    "U$2",
+    "U$3",
+    "U$4"
+  ],
+  "SMD_component_count": 72,
+  "SMD_centroid_designators_exactly_match": true,
+  "cell_male_headers": 8,
+  "evaluation_female_sockets_for_4_cells": 8,
+  "ferrite_rods": 24,
+  "magnets": 24,
+  "coils": 24,
+  "LCSC_part_numbers": "Not guessed; supplier-specific selection remains"
+}

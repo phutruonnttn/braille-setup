@@ -1,0 +1,2931 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-12T14:50:02",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Braille-Cell.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1136 mm",
+                    "pos": {
+                        "x": -17.5514,
+                        "y": -10.0584
+                    },
+                    "uuid": "5d790612-3565-416b-92c0-5ee9a7ad51ad"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 2.6351 mm",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -11.702943
+                    },
+                    "uuid": "fe9d068d-3533-4329-a9a4-49dcdc0e3ab5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -12.947843
+                    },
+                    "uuid": "69bf68c3-df00-43c7-bca6-5bc7672945fa"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 2.6351 mm",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -11.702943
+                    },
+                    "uuid": "fe9d068d-3533-4329-a9a4-49dcdc0e3ab5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.4972 mm",
+                    "pos": {
+                        "x": -17.5514,
+                        "y": -11.555643
+                    },
+                    "uuid": "23a9e6da-d7be-42ff-8d61-b852f123bb4f"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 2.6351 mm",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -11.702943
+                    },
+                    "uuid": "fe9d068d-3533-4329-a9a4-49dcdc0e3ab5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [3B] on B.Cu, length 0.3270 mm",
+                    "pos": {
+                        "x": -18.7674,
+                        "y": 9.0202
+                    },
+                    "uuid": "365e3ca8-5257-4e05-8dd3-02ad5bc0f5c2"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [3B] on B.Cu, length 0.9339 mm",
+                    "pos": {
+                        "x": -18.4404,
+                        "y": 9.0202
+                    },
+                    "uuid": "5033d42e-e9ce-4273-862e-87650c19b256"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                },
+                {
+                    "description": "Track [3B] on B.Cu, length 1.0103 mm",
+                    "pos": {
+                        "x": -19.4818,
+                        "y": 8.3058
+                    },
+                    "uuid": "e5044ffa-0634-49ad-9f5f-6a6d77818a41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2213 mm)",
+            "items": [
+                {
+                    "description": "Via [2B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.8722,
+                        "y": -4.2672
+                    },
+                    "uuid": "06effe9b-d530-409e-9b69-8000437e2b97"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_2",
+                    "pos": {
+                        "x": -18.0594,
+                        "y": -5.08
+                    },
+                    "uuid": "01827094-16e7-4eea-a313-09acee39f1e7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2213 mm)",
+            "items": [
+                {
+                    "description": "Via [2B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.8722,
+                        "y": -4.2672
+                    },
+                    "uuid": "06effe9b-d530-409e-9b69-8000437e2b97"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_2",
+                    "pos": {
+                        "x": -18.0594,
+                        "y": -5.08
+                    },
+                    "uuid": "01827094-16e7-4eea-a313-09acee39f1e7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1951 mm)",
+            "items": [
+                {
+                    "description": "Via [5A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -14.0716,
+                        "y": -5.969
+                    },
+                    "uuid": "0e7fb624-6e54-434e-bd62-1c41c921afa6"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 0.4641 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -6.5258
+                    },
+                    "uuid": "253cfebd-1a8f-4358-9d5e-0d1451175066"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1552 mm)",
+            "items": [
+                {
+                    "description": "Via [5A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -14.0716,
+                        "y": -5.969
+                    },
+                    "uuid": "0e7fb624-6e54-434e-bd62-1c41c921afa6"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 2.6670 mm",
+                    "pos": {
+                        "x": -13.4366,
+                        "y": -6.1976
+                    },
+                    "uuid": "1c98b0c1-f71b-4815-98b3-4e33a289c4b7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 1.7214 mm",
+                    "pos": {
+                        "x": -14.6812,
+                        "y": -10.627756
+                    },
+                    "uuid": "c9523f46-6413-494f-915f-0bf9caea44d8"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 1.7015 mm",
+                    "pos": {
+                        "x": -13.464,
+                        "y": -9.410556
+                    },
+                    "uuid": "5a73caaf-89f9-4271-83ec-0d58ae7430d0"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 0.8593 mm",
+                    "pos": {
+                        "x": -13.464,
+                        "y": -7.709043
+                    },
+                    "uuid": "2c730835-318b-4b9a-b99e-10a8a1b11f61"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1786 mm)",
+            "items": [
+                {
+                    "description": "Track [5A] on F.Cu, length 1.7015 mm",
+                    "pos": {
+                        "x": -13.464,
+                        "y": -9.410556
+                    },
+                    "uuid": "5a73caaf-89f9-4271-83ec-0d58ae7430d0"
+                },
+                {
+                    "description": "Via [4A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -14.1224,
+                        "y": -9.0678
+                    },
+                    "uuid": "69d3f896-fa03-4886-a6f2-ad326d329d2e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1012 mm",
+                    "pos": {
+                        "x": -17.013512,
+                        "y": -19.223
+                    },
+                    "uuid": "fd51f60a-f06c-4a0e-bf10-6a2145a2cf09"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1723 mm",
+                    "pos": {
+                        "x": -18.114687,
+                        "y": -19.223
+                    },
+                    "uuid": "9c957f1d-a1aa-4eaa-a181-06a0ff4590fb"
+                },
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2374 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 2.2606 mm",
+                    "pos": {
+                        "x": -19.431,
+                        "y": -5.969
+                    },
+                    "uuid": "06d8c17b-1830-4875-b513-904af5d2bd02"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_2",
+                    "pos": {
+                        "x": -18.0594,
+                        "y": -5.08
+                    },
+                    "uuid": "01827094-16e7-4eea-a313-09acee39f1e7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.1427 mm",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.287687
+                    },
+                    "uuid": "a8c0bbf1-dce9-4004-8d86-0f3af21a997b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 5.4462 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -18.394087
+                    },
+                    "uuid": "1dc21fd9-4878-47f3-a9df-2c091b311d17"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.1427 mm",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.287687
+                    },
+                    "uuid": "a8c0bbf1-dce9-4004-8d86-0f3af21a997b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 4.3845 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -17.479687
+                    },
+                    "uuid": "dbb83d57-2264-407b-aed5-8e7e11257427"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -12.947843
+                    },
+                    "uuid": "69bf68c3-df00-43c7-bca6-5bc7672945fa"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 4.3845 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -17.479687
+                    },
+                    "uuid": "dbb83d57-2264-407b-aed5-8e7e11257427"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 5.4462 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -18.394087
+                    },
+                    "uuid": "1dc21fd9-4878-47f3-a9df-2c091b311d17"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 4.3845 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -17.479687
+                    },
+                    "uuid": "dbb83d57-2264-407b-aed5-8e7e11257427"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)",
+            "items": [
+                {
+                    "description": "Via [4B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -7.3914
+                    },
+                    "uuid": "1db67a65-a795-455d-829c-4b39911883ad"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_1",
+                    "pos": {
+                        "x": -14.9606,
+                        "y": -8.1788
+                    },
+                    "uuid": "f9dce589-e943-4278-b753-ea63356df6a3"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1552 mm)",
+            "items": [
+                {
+                    "description": "Via [4B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -7.3914
+                    },
+                    "uuid": "1db67a65-a795-455d-829c-4b39911883ad"
+                },
+                {
+                    "description": "Track [3A] on F.Cu, length 6.0706 mm",
+                    "pos": {
+                        "x": -16.4084,
+                        "y": -10.7442
+                    },
+                    "uuid": "2cff21c1-ee6b-4dd8-b95e-b2149a91bba5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)",
+            "items": [
+                {
+                    "description": "Via [4B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -7.3914
+                    },
+                    "uuid": "1db67a65-a795-455d-829c-4b39911883ad"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_1",
+                    "pos": {
+                        "x": -14.9606,
+                        "y": -8.1788
+                    },
+                    "uuid": "f9dce589-e943-4278-b753-ea63356df6a3"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2192 mm)",
+            "items": [
+                {
+                    "description": "Track [4B] on B.Cu, length 8.3788 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": -6.296
+                    },
+                    "uuid": "94890eba-09fa-4968-b85b-337434e98c53"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_9",
+                    "pos": {
+                        "x": -14.224,
+                        "y": 0.762
+                    },
+                    "uuid": "a9bf294e-7555-4943-af9f-ba42b14a6915"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)",
+            "items": [
+                {
+                    "description": "Via [6B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -1.1938
+                    },
+                    "uuid": "f402bf3e-a928-4fe3-96f9-59be8ec15614"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_5",
+                    "pos": {
+                        "x": -14.9606,
+                        "y": -1.9812
+                    },
+                    "uuid": "10f46b5e-3ee1-45ae-a6fa-c3d16bf9a41b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1532 mm)",
+            "items": [
+                {
+                    "description": "Track [1B] on B.Cu, length 7.4497 mm",
+                    "pos": {
+                        "x": -16.4064,
+                        "y": -6.7684
+                    },
+                    "uuid": "0b6084d6-d49c-4007-be0b-5da5fa7e03ab"
+                },
+                {
+                    "description": "Via [6B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -1.1938
+                    },
+                    "uuid": "f402bf3e-a928-4fe3-96f9-59be8ec15614"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)",
+            "items": [
+                {
+                    "description": "Via [6B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -1.1938
+                    },
+                    "uuid": "f402bf3e-a928-4fe3-96f9-59be8ec15614"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_5",
+                    "pos": {
+                        "x": -14.9606,
+                        "y": -1.9812
+                    },
+                    "uuid": "10f46b5e-3ee1-45ae-a6fa-c3d16bf9a41b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2213 mm)",
+            "items": [
+                {
+                    "description": "Via [5B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -4.2672
+                    },
+                    "uuid": "efd255c7-a34f-4758-aaee-a0fea8968838"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_3",
+                    "pos": {
+                        "x": -14.9606,
+                        "y": -5.08
+                    },
+                    "uuid": "2e60917d-dd55-4058-a128-52af3e144b8e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2213 mm)",
+            "items": [
+                {
+                    "description": "Via [5B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -4.2672
+                    },
+                    "uuid": "efd255c7-a34f-4758-aaee-a0fea8968838"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_3",
+                    "pos": {
+                        "x": -14.9606,
+                        "y": -5.08
+                    },
+                    "uuid": "2e60917d-dd55-4058-a128-52af3e144b8e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -12.947843
+                    },
+                    "uuid": "69bf68c3-df00-43c7-bca6-5bc7672945fa"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)",
+            "items": [
+                {
+                    "description": "Via [3B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.8468,
+                        "y": -1.1684
+                    },
+                    "uuid": "44610d28-e254-41fd-af76-b1725be6d672"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_4",
+                    "pos": {
+                        "x": -18.0594,
+                        "y": -1.9812
+                    },
+                    "uuid": "c29cba35-6015-42e8-b67e-b85fb015b1a8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1532 mm)",
+            "items": [
+                {
+                    "description": "Track [1B] on B.Cu, length 7.4497 mm",
+                    "pos": {
+                        "x": -16.4064,
+                        "y": -6.7684
+                    },
+                    "uuid": "0b6084d6-d49c-4007-be0b-5da5fa7e03ab"
+                },
+                {
+                    "description": "Via [5B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -4.2672
+                    },
+                    "uuid": "efd255c7-a34f-4758-aaee-a0fea8968838"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 5.4462 mm",
+                    "pos": {
+                        "x": -18.9436,
+                        "y": -18.394087
+                    },
+                    "uuid": "1dc21fd9-4878-47f3-a9df-2c091b311d17"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)",
+            "items": [
+                {
+                    "description": "Via [3B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.8468,
+                        "y": -1.1684
+                    },
+                    "uuid": "44610d28-e254-41fd-af76-b1725be6d672"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_4",
+                    "pos": {
+                        "x": -18.0594,
+                        "y": -1.9812
+                    },
+                    "uuid": "c29cba35-6015-42e8-b67e-b85fb015b1a8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Track [2A] on F.Cu, length 1.4972 mm",
+                    "pos": {
+                        "x": -17.5514,
+                        "y": -11.555643
+                    },
+                    "uuid": "23a9e6da-d7be-42ff-8d61-b852f123bb4f"
+                },
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Track [1A] on F.Cu, length 1.9689 mm",
+                    "pos": {
+                        "x": -18.588,
+                        "y": -13.095143
+                    },
+                    "uuid": "d9628571-f757-49e1-9363-936ee1ca1c36"
+                },
+                {
+                    "description": "NPTH pad of UNK_HOLE_6",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -12.9286
+                    },
+                    "uuid": "fd7f8d17-d6ac-4bb2-9994-76f5dfe784ec"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                },
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                },
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                },
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                },
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                },
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                },
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                },
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1620 mm)",
+            "items": [
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                },
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4318 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -20.32,
+                        "y": 8.8646
+                    },
+                    "uuid": "a0cd0830-dd74-4244-8b8d-6fa93543aff2"
+                },
+                {
+                    "description": "Track [2A] on F.Cu, length 1.1495 mm",
+                    "pos": {
+                        "x": -18.9738,
+                        "y": -9.271
+                    },
+                    "uuid": "18598d2f-0dad-4d68-a167-8c57abf3da51"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4318 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -20.32,
+                        "y": 8.8646
+                    },
+                    "uuid": "a0cd0830-dd74-4244-8b8d-6fa93543aff2"
+                },
+                {
+                    "description": "Track [2A] on F.Cu, length 0.5029 mm",
+                    "pos": {
+                        "x": -19.7866,
+                        "y": -6.3246
+                    },
+                    "uuid": "7b2d6915-b575-40b0-9896-2ac4ae141d04"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4318 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -20.32,
+                        "y": 8.8646
+                    },
+                    "uuid": "a0cd0830-dd74-4244-8b8d-6fa93543aff2"
+                },
+                {
+                    "description": "Track [2A] on F.Cu, length 2.1336 mm",
+                    "pos": {
+                        "x": -19.7866,
+                        "y": -8.4582
+                    },
+                    "uuid": "bb468f32-51b1-4159-9ccb-25605360d6aa"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3068 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 0.4641 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -6.5258
+                    },
+                    "uuid": "253cfebd-1a8f-4358-9d5e-0d1451175066"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3068 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 1.1107 mm",
+                    "pos": {
+                        "x": -13.8938,
+                        "y": -10.546456
+                    },
+                    "uuid": "85eb234e-e3ec-412f-aaa9-6c2d4ce5ec2e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3068 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [6A] on F.Cu, length 3.2353 mm",
+                    "pos": {
+                        "x": -13.1084,
+                        "y": -9.761056
+                    },
+                    "uuid": "dd610986-1ae2-4f22-b285-7862f829f882"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [1B] on B.Cu, length 0.7229 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": 8.455
+                    },
+                    "uuid": "88448060-4dfd-4444-ab9e-a29b01f5ae65"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4058 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": -13.716002,
+                        "y": 8.762998
+                    },
+                    "uuid": "703d3cfa-24eb-4e04-8bb7-83c07cd4f103"
+                },
+                {
+                    "description": "Track [1B] on B.Cu, length 0.7229 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": 8.455
+                    },
+                    "uuid": "88448060-4dfd-4444-ab9e-a29b01f5ae65"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [1B] on B.Cu, length 4.6714 mm",
+                    "pos": {
+                        "x": -16.4064,
+                        "y": 0.681343
+                    },
+                    "uuid": "9b4a2edb-e913-4611-b245-322126787c12"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [1B] on B.Cu, length 4.4705 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": 3.984543
+                    },
+                    "uuid": "acb74653-5bcb-4ba9-94d1-b8bfc843d167"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4058 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": -13.716002,
+                        "y": 8.762998
+                    },
+                    "uuid": "703d3cfa-24eb-4e04-8bb7-83c07cd4f103"
+                },
+                {
+                    "description": "Track [1B] on B.Cu, length 4.4705 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": 3.984543
+                    },
+                    "uuid": "acb74653-5bcb-4ba9-94d1-b8bfc843d167"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -13.716,
+                        "y": 9.779
+                    },
+                    "uuid": "5a238617-2955-42df-934c-083244aed976"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 0.7184 mm",
+                    "pos": {
+                        "x": -17.018,
+                        "y": 9.3758
+                    },
+                    "uuid": "099c905a-d9d2-4ad9-9557-e4c688da15e4"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -20.32,
+                        "y": 8.8646
+                    },
+                    "uuid": "a0cd0830-dd74-4244-8b8d-6fa93543aff2"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 1.4773 mm",
+                    "pos": {
+                        "x": -18.8722,
+                        "y": -4.2672
+                    },
+                    "uuid": "0cf46eb1-1215-4ea6-9d8f-cd453ee3835b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3026 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": -19.405598,
+                        "y": 8.864598
+                    },
+                    "uuid": "40671019-c1a0-4f61-b5d5-acc406ac524b"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -13.716,
+                        "y": 9.779
+                    },
+                    "uuid": "5a238617-2955-42df-934c-083244aed976"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 2.3590 mm",
+                    "pos": {
+                        "x": -19.377,
+                        "y": 9.3758
+                    },
+                    "uuid": "9ed97768-5459-43ce-9478-6c14366c7095"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -20.32,
+                        "y": 8.8646
+                    },
+                    "uuid": "a0cd0830-dd74-4244-8b8d-6fa93543aff2"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 12.0586 mm",
+                    "pos": {
+                        "x": -19.9168,
+                        "y": -3.2226
+                    },
+                    "uuid": "b46935c9-3fb3-43e7-b8f7-081593e1b0f5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3026 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": -19.405598,
+                        "y": 8.864598
+                    },
+                    "uuid": "40671019-c1a0-4f61-b5d5-acc406ac524b"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 12.0586 mm",
+                    "pos": {
+                        "x": -19.9168,
+                        "y": -3.2226
+                    },
+                    "uuid": "b46935c9-3fb3-43e7-b8f7-081593e1b0f5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -20.32,
+                        "y": 8.8646
+                    },
+                    "uuid": "a0cd0830-dd74-4244-8b8d-6fa93543aff2"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 0.7634 mm",
+                    "pos": {
+                        "x": -19.9168,
+                        "y": 8.836
+                    },
+                    "uuid": "f698c03e-f41f-4931-81a1-024ce1cb382c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3026 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": -19.405598,
+                        "y": 8.864598
+                    },
+                    "uuid": "40671019-c1a0-4f61-b5d5-acc406ac524b"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 0.7634 mm",
+                    "pos": {
+                        "x": -19.9168,
+                        "y": 8.836
+                    },
+                    "uuid": "f698c03e-f41f-4931-81a1-024ce1cb382c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -13.716,
+                        "y": 9.779
+                    },
+                    "uuid": "5a238617-2955-42df-934c-083244aed976"
+                },
+                {
+                    "description": "Track [2B] on B.Cu, length 0.7634 mm",
+                    "pos": {
+                        "x": -19.9168,
+                        "y": 8.836
+                    },
+                    "uuid": "f698c03e-f41f-4931-81a1-024ce1cb382c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4346 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Via [4B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -13.5128,
+                        "y": 2.3114
+                    },
+                    "uuid": "c99eae39-2eba-4fdb-935a-a09cb064ee1c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [4B] on B.Cu, length 0.8307 mm",
+                    "pos": {
+                        "x": -13.6906,
+                        "y": -6.8834
+                    },
+                    "uuid": "53661657-87ff-45b6-9afc-81bcd763c8ec"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [4B] on B.Cu, length 8.3788 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": -6.296
+                    },
+                    "uuid": "94890eba-09fa-4968-b85b-337434e98c53"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3016 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": -12.7,
+                        "y": -18.923
+                    },
+                    "uuid": "5b429f95-f392-4a9d-9f96-f2c028060068"
+                },
+                {
+                    "description": "Track [4B] on B.Cu, length 0.3233 mm",
+                    "pos": {
+                        "x": -13.1032,
+                        "y": 2.0828
+                    },
+                    "uuid": "9b6bf8e5-d964-44d2-a716-7f502fa8e4d0"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                },
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$1 [1A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -18.415
+                    },
+                    "uuid": "f84913ae-7784-4fe7-824d-f7d19d8b13d4"
+                },
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                },
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$11 [6A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -17.145
+                    },
+                    "uuid": "c1b905fc-8b57-46b8-a674-a332b60cc32a"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                },
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$2 [1B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 8.255
+                    },
+                    "uuid": "6e860674-544b-439d-b34f-ad2f9d7c0e67"
+                },
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                },
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$12 [6B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 6.985
+                    },
+                    "uuid": "11cae355-8fc0-4f3a-8c1a-94b1e3d0c344"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$5 [3A] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": -18.415
+                    },
+                    "uuid": "e683187d-020b-40c1-bad0-3c90b4575542"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$3 [2A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -18.415
+                    },
+                    "uuid": "6b6c35f4-e2ec-4718-b91d-b0de4fc6e8f6"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$6 [3B] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": 8.255
+                    },
+                    "uuid": "5431583f-6e9c-41e0-819d-887db3cf2f20"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$4 [2B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 8.255
+                    },
+                    "uuid": "4c2e8619-670e-4295-8878-63760dd79a5c"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$7 [4A] of U$1",
+                    "pos": {
+                        "x": -17.78,
+                        "y": -17.145
+                    },
+                    "uuid": "08dd658e-72d0-42bc-8514-0add9586c162"
+                },
+                {
+                    "description": "PTH pad P$9 [5A] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": -17.145
+                    },
+                    "uuid": "d044e9c3-3523-4a61-ab24-9873b9171634"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad P$8 [4B] of U$1",
+                    "pos": {
+                        "x": -15.24,
+                        "y": 6.985
+                    },
+                    "uuid": "9feef934-5e1a-4902-bcfd-e313efbe4aa1"
+                },
+                {
+                    "description": "PTH pad P$10 [5B] of U$1",
+                    "pos": {
+                        "x": -16.51,
+                        "y": 6.985
+                    },
+                    "uuid": "1b7c3bde-c0d7-49d6-821a-ffc1da0d38b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [1A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -17.1958,
+                        "y": -9.0678
+                    },
+                    "uuid": "c67fed90-a433-48ad-a775-826a8ef079b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [2A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -17.1704,
+                        "y": -5.969
+                    },
+                    "uuid": "6b9a0873-46ea-4e05-8424-a281263fc530"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [3A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -17.1704,
+                        "y": -2.8702
+                    },
+                    "uuid": "6aca5572-3d3b-4f86-a131-0d8c7b6cfebf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [4A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -14.1224,
+                        "y": -9.0678
+                    },
+                    "uuid": "69d3f896-fa03-4886-a6f2-ad326d329d2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -14.0716,
+                        "y": -5.969
+                    },
+                    "uuid": "0e7fb624-6e54-434e-bd62-1c41c921afa6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [6A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -14.0716,
+                        "y": -2.8956
+                    },
+                    "uuid": "a831a410-1765-4e20-b292-e3b5ad2d8b61"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [1B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.923,
+                        "y": -7.3406
+                    },
+                    "uuid": "2487e113-617d-46be-97ab-7871dd168df9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [2B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.8722,
+                        "y": -4.2672
+                    },
+                    "uuid": "06effe9b-d530-409e-9b69-8000437e2b97"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [3B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -18.8468,
+                        "y": -1.1684
+                    },
+                    "uuid": "44610d28-e254-41fd-af76-b1725be6d672"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [4B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -7.3914
+                    },
+                    "uuid": "1db67a65-a795-455d-829c-4b39911883ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -4.2672
+                    },
+                    "uuid": "efd255c7-a34f-4758-aaee-a0fea8968838"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [6B] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": -15.7734,
+                        "y": -1.1938
+                    },
+                    "uuid": "f402bf3e-a928-4fe3-96f9-59be8ec15614"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

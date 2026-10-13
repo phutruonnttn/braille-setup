@@ -1,0 +1,28 @@
+Drill report for Braille-Evaluation.kicad_pcb
+Created on 2026-10-12T14:58:38
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Braille-Evaluation-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.350mm  0.0138"  (183 holes))
+    T2  0.600mm  0.0236"  (96 holes))
+    T3  0.800mm  0.0315"  (36 holes))
+    T4  0.813mm  0.0320"  (3 holes))
+    T5  1.000mm  0.0394"  (3 holes))
+    T6  1.016mm  0.0400"  (4 holes))
+
+    Total plated holes count 325
+
+
+Drill file 'Braille-Evaluation-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.000mm  0.1181"  (4 holes))
+
+    Total unplated holes count 4

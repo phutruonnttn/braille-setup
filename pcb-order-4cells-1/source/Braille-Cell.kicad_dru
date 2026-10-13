@@ -1,0 +1,7 @@
+(version 1)
+(rule "Original Eagle 6 mil copper clearance"
+  (constraint clearance (min 0.1524mm)))
+(rule "Routed edge copper clearance"
+  (constraint edge_clearance (min 0.30mm)))
+(rule "Hole to copper clearance"
+  (constraint hole_clearance (min 0.20mm)))

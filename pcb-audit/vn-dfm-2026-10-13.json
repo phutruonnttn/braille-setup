@@ -1,0 +1,328 @@
+{
+  "Braille-Cell": {
+    "source": "export/PCB-source-KiCad/Braille-Cell.kicad_pcb",
+    "archive": "export/PCB-nho-Gerber.zip",
+    "archive_sha256": "2ea2799ef49277b3fa4715836aaffa22e2dab55b275bdee8b30b0552f61b34d6",
+    "archive_crc_ok": true,
+    "straight_track_count": 88,
+    "unmeasured_track_arc_count": 0,
+    "track_width_counts_mm": {
+      "0.2032": 88
+    },
+    "routing_via_count": 3,
+    "routing_via_dimensions": {
+      "D=0.7564; drill=0.35; ring=0.2032": 3
+    },
+    "gerber_circle_flash_diameters_mm": {
+      "top": {
+        "0.7564": 15
+      },
+      "bottom": {
+        "0.7564": 15
+      }
+    },
+    "excellon_PTH_drill_counts_mm": {
+      "0.35": 15,
+      "0.6": 12
+    },
+    "different_net_same_layer_straight_track_pair_counts": {
+      "below_0.20_mm": 15,
+      "below_0.35_mm": 24
+    },
+    "minimum_measured_track_track_gap_mm": 0.1524,
+    "minimum_pair": {
+      "a": {
+        "start": [
+          -17.78,
+          -18.287687
+        ],
+        "end": [
+          -18.588,
+          -17.479687
+        ],
+        "width": 0.2032,
+        "layer": "F.Cu",
+        "net": "1A"
+      },
+      "b": {
+        "start": [
+          -18.9436,
+          -18.394087
+        ],
+        "end": [
+          -18.9436,
+          -12.947843
+        ],
+        "width": 0.2032,
+        "layer": "F.Cu",
+        "net": "2A"
+      }
+    },
+    "examples_below_0.20_mm": [
+      {
+        "gap_mm": 0.1524,
+        "a": {
+          "start": [
+            -17.78,
+            -18.287687
+          ],
+          "end": [
+            -18.588,
+            -17.479687
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "1A"
+        },
+        "b": {
+          "start": [
+            -18.9436,
+            -18.394087
+          ],
+          "end": [
+            -18.9436,
+            -12.947843
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "2A"
+        }
+      },
+      {
+        "gap_mm": 0.1524,
+        "a": {
+          "start": [
+            -18.588,
+            -13.095143
+          ],
+          "end": [
+            -17.1958,
+            -11.702943
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "1A"
+        },
+        "b": {
+          "start": [
+            -18.9436,
+            -18.394087
+          ],
+          "end": [
+            -18.9436,
+            -12.947843
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "2A"
+        }
+      },
+      {
+        "gap_mm": 0.152404,
+        "a": {
+          "start": [
+            -18.588,
+            -13.095143
+          ],
+          "end": [
+            -17.1958,
+            -11.702943
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "1A"
+        },
+        "b": {
+          "start": [
+            -17.5514,
+            -11.555643
+          ],
+          "end": [
+            -17.5514,
+            -10.0584
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "2A"
+        }
+      },
+      {
+        "gap_mm": 0.152404,
+        "a": {
+          "start": [
+            -18.588,
+            -13.095143
+          ],
+          "end": [
+            -17.1958,
+            -11.702943
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "1A"
+        },
+        "b": {
+          "start": [
+            -18.9436,
+            -12.947843
+          ],
+          "end": [
+            -17.5514,
+            -11.555643
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "2A"
+        }
+      },
+      {
+        "gap_mm": 0.1524,
+        "a": {
+          "start": [
+            -18.588,
+            -17.479687
+          ],
+          "end": [
+            -18.588,
+            -13.095143
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "1A"
+        },
+        "b": {
+          "start": [
+            -18.9436,
+            -18.394087
+          ],
+          "end": [
+            -18.9436,
+            -12.947843
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "2A"
+        }
+      },
+      {
+        "gap_mm": 0.152404,
+        "a": {
+          "start": [
+            -18.588,
+            -17.479687
+          ],
+          "end": [
+            -18.588,
+            -13.095143
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "1A"
+        },
+        "b": {
+          "start": [
+            -18.9436,
+            -12.947843
+          ],
+          "end": [
+            -17.5514,
+            -11.555643
+          ],
+          "width": 0.2032,
+          "layer": "F.Cu",
+          "net": "2A"
+        }
+      }
+    ],
+    "minimum_measured_via_track_gap_mm": 0.2314,
+    "different_net_via_track_pair_counts": {
+      "below_0.20_mm": 0,
+      "below_0.35_mm": 1
+    },
+    "header_nominal_pitch_mm": 1.27,
+    "header_pad_width_mm": 1.108,
+    "header_nominal_adjacent_pad_edge_gap_mm": 0.162,
+    "scope": "Tracks and round-via sizes; not a full DRC. Pair counts are not unique repair-site counts."
+  },
+  "Braille-Evaluation": {
+    "source": "export/PCB-source-KiCad/Braille-Evaluation.kicad_pcb",
+    "archive": "export/PCB-to-PCBA.zip",
+    "archive_sha256": "9039f242e23edbb327b34704540238b96dd4e63baafa3cb7c069b67edca2cefd",
+    "archive_crc_ok": true,
+    "straight_track_count": 1238,
+    "unmeasured_track_arc_count": 0,
+    "track_width_counts_mm": {
+      "0.3048": 1164,
+      "0.6096": 51,
+      "0.8128": 3,
+      "0.508": 20
+    },
+    "routing_via_count": 183,
+    "routing_via_dimensions": {
+      "D=0.7564; drill=0.35; ring=0.2032": 183
+    },
+    "gerber_circle_flash_diameters_mm": {
+      "top": {
+        "1.308": 6,
+        "1.8796": 4,
+        "0.7564": 183
+      },
+      "bottom": {
+        "1.308": 6,
+        "1.8796": 4,
+        "0.7564": 183
+      }
+    },
+    "excellon_PTH_drill_counts_mm": {
+      "0.35": 183,
+      "0.6": 96,
+      "0.8": 36,
+      "0.813": 3,
+      "1.0": 3,
+      "1.016": 4
+    },
+    "different_net_same_layer_straight_track_pair_counts": {
+      "below_0.20_mm": 0,
+      "below_0.35_mm": 332
+    },
+    "minimum_measured_track_track_gap_mm": 0.2032,
+    "minimum_pair": {
+      "a": {
+        "start": [
+          73.0957,
+          -64.17665
+        ],
+        "end": [
+          78.09225,
+          -64.17665
+        ],
+        "width": 0.3048,
+        "layer": "B.Cu",
+        "net": "N$153"
+      },
+      "b": {
+        "start": [
+          77.881825,
+          -63.66865
+        ],
+        "end": [
+          80.0481,
+          -61.502375
+        ],
+        "width": 0.3048,
+        "layer": "B.Cu",
+        "net": "N$52"
+      }
+    },
+    "examples_below_0.20_mm": [],
+    "minimum_measured_via_track_gap_mm": 0.2032,
+    "different_net_via_track_pair_counts": {
+      "below_0.20_mm": 0,
+      "below_0.35_mm": 184
+    },
+    "header_nominal_pitch_mm": 1.27,
+    "header_pad_width_mm": 1.108,
+    "header_nominal_adjacent_pad_edge_gap_mm": 0.162,
+    "scope": "Tracks and round-via sizes; not a full DRC. Pair counts are not unique repair-site counts."
+  }
+}

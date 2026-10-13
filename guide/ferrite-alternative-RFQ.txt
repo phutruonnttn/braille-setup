@@ -1,0 +1,55 @@
+ENGLISH — SAMPLE / STOCK INQUIRY
+
+Subject: Small-quantity enquiry: soft ferrite solid rods, diameter 1 mm x length 10 mm
+
+Hello,
+
+I am building a personal refreshable Braille prototype in Singapore. I am looking for an alternative soft ferrite core that can be supplied from Singapore or elsewhere in Asia.
+
+Reference part: Fair-Rite 3067990831, uncoated solid NiZn ferrite rod, material 67.
+Reference dimensions: diameter 1.00 +/- 0.025 mm; length 10.00 +/- 0.30 mm.
+Reference initial permeability: approximately 40 (material value; rod permeability approximately 22).
+Application: miniature coil driven with bipolar pulses to flip a permanent-magnet cam.
+
+I need 24 rods for the prototype. Could you offer 3–6 samples for evaluation, followed by 30–50 pieces including spares if the samples work?
+
+Please advise:
+1. Any existing-stock or existing-tooling solid rods in this size; please identify the material grade and provide its datasheet and dimensional tolerances.
+2. Actual stock location and earliest dispatch date. I would prefer Singapore, China, Japan, Taiwan or Thailand rather than shipment from the USA.
+3. Sample price, minimum order quantity and any tooling/customisation charge.
+4. Total delivered cost and estimated delivery date to Singapore; self-collection if stock is physically in Singapore.
+
+The PCB core holes are nominally 1.10 mm. Please flag any dimensional deviation for review before proposing a substitute. I need bare solid soft ferrite cores, without windings or metal end caps, rather than permanent magnets or hollow EMI beads.
+
+This is a one-off personal prototype with no confirmed annual production volume. A suggested alternative will be evaluated in the mechanism before acceptance.
+
+Thank you,
+Nguyen Phu Truong
+
+OPTIONAL PARAGRAPH FOR INFANTRON / TOMITA ONLY
+
+I saw Tomita's 4D4-R-1X4.8 rod, which demonstrates the 1 mm diameter but is too short for this mechanism. Can Tomita supply a 1 mm x 10 mm rod from existing tooling or sample stock, in 6D8 or another suitable NiZn grade? I understand that 6D8 is a material grade, not a confirmed catalogue part in this size. Please suggest the closest available option with its datasheet.
+
+RECIPIENTS TO CONTACT SEPARATELY
+
+Infantron: sales@infantron.net | +65 6299 3900 | https://infantron.net/
+Golden Eagle: sales@goldeneagle-cn.com | +86 769 83517380 | https://www.inductor-coil.com/contact-us/
+Superworld: sales@superworld.com.sg | +65 6298 2866 | https://www.superworld.com.sg/our-products/family/
+
+CHINESE — FOR CHINESE SUPPLIERS / TAOBAO / 1688
+
+您好，我在新加坡制作个人盲文显示器原型，需要未充磁的软磁镍锌铁氧体实心圆棒。
+
+参考型号：Fair-Rite 3067990831，67材料，初始磁导率约40。
+参考尺寸：直径1.00±0.025mm，长度10.00±0.30mm。
+用途：微型线圈用双向脉冲驱动带永磁体的翻转机构。
+
+需要先买3–6支样品测试，通过后购买30–50支。请问是否有现货或现成模具，不需要另开模具？请提供：
+1. 磁材牌号及数据表、实际尺寸公差；
+2. 库存所在地、最早发货日期；
+3. 样品价格、最小起订量、是否有开模费；
+4. 发往新加坡的总费用和预计到货日期。
+
+PCB安装孔标称直径为1.10mm。如尺寸不同，请先明确说明。
+需要的是未绕线的实心软磁铁氧体棒，不是永磁体、空心磁珠或带金属端帽的成品RFID线圈。
+这是个人小批量原型，没有确定的年度量产需求。优先中国或亚洲现货，避免从美国发货。谢谢。

@@ -1,0 +1,14 @@
+(version 1)
+(rule "VN ordinary copper clearance 0.20mm"
+  (constraint clearance (min 0.20mm)))
+(rule "VN fixed footprint pad spacing exception 0.15mm"
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Reference == B.Reference && A.Reference != 'COIL_TERMINALS'")
+  (constraint clearance (min 0.15mm)))
+(rule "Routed edge copper clearance"
+  (constraint edge_clearance (min 0.20mm)))
+(rule "Hole to copper clearance"
+  (constraint hole_clearance (min 0.20mm)))
+(rule "VN track width"
+  (constraint track_width (min 0.20mm)))
+(rule "VN via annular width"
+  (constraint annular_width (min 0.20mm)))

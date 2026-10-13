@@ -1,0 +1,794 @@
+{
+  "D2": {
+    "source_coordinate_pad_center_mm": [
+      37.62375,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D33": {
+    "source_coordinate_pad_center_mm": [
+      54.61,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D34": {
+    "source_coordinate_pad_center_mm": [
+      49.53,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D56": {
+    "source_coordinate_pad_center_mm": [
+      76.2,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D20": {
+    "source_coordinate_pad_center_mm": [
+      22.86,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D28": {
+    "source_coordinate_pad_center_mm": [
+      40.64,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D52": {
+    "source_coordinate_pad_center_mm": [
+      76.2,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D39": {
+    "source_coordinate_pad_center_mm": [
+      63.5,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "IC3": {
+    "source_coordinate_pad_center_mm": [
+      17.78,
+      44.45
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D45": {
+    "source_coordinate_pad_center_mm": [
+      72.39,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D3": {
+    "source_coordinate_pad_center_mm": [
+      41.8465,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "C5": {
+    "source_coordinate_pad_center_mm": [
+      40.13835,
+      82.7786
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 0.0
+  },
+  "D38": {
+    "source_coordinate_pad_center_mm": [
+      49.53,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D53": {
+    "source_coordinate_pad_center_mm": [
+      76.2,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D31": {
+    "source_coordinate_pad_center_mm": [
+      45.72,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "U2": {
+    "source_coordinate_pad_center_mm": [
+      32.67945,
+      79.96555
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D23": {
+    "source_coordinate_pad_center_mm": [
+      31.75,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D48": {
+    "source_coordinate_pad_center_mm": [
+      72.39,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D32": {
+    "source_coordinate_pad_center_mm": [
+      40.64,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D13": {
+    "source_coordinate_pad_center_mm": [
+      19.05,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "IC5": {
+    "source_coordinate_pad_center_mm": [
+      55.93715,
+      45.38345
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D51": {
+    "source_coordinate_pad_center_mm": [
+      81.28,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D40": {
+    "source_coordinate_pad_center_mm": [
+      58.42,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D1": {
+    "source_coordinate_pad_center_mm": [
+      33.71215,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D29": {
+    "source_coordinate_pad_center_mm": [
+      40.64,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "IC2": {
+    "source_coordinate_pad_center_mm": [
+      73.85685,
+      45.0723
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D7": {
+    "source_coordinate_pad_center_mm": [
+      57.18175,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D4": {
+    "source_coordinate_pad_center_mm": [
+      45.7581,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D27": {
+    "source_coordinate_pad_center_mm": [
+      45.72,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D43": {
+    "source_coordinate_pad_center_mm": [
+      63.5,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D25": {
+    "source_coordinate_pad_center_mm": [
+      36.83,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "IC6": {
+    "source_coordinate_pad_center_mm": [
+      36.25215,
+      45.38345
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D11": {
+    "source_coordinate_pad_center_mm": [
+      13.97,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "IC1": {
+    "source_coordinate_pad_center_mm": [
+      19.685,
+      55.245
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 0.0
+  },
+  "D19": {
+    "source_coordinate_pad_center_mm": [
+      27.94,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D15": {
+    "source_coordinate_pad_center_mm": [
+      27.94,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "C3": {
+    "source_coordinate_pad_center_mm": [
+      29.88945,
+      47.28845
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D5": {
+    "source_coordinate_pad_center_mm": [
+      49.6697,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D26": {
+    "source_coordinate_pad_center_mm": [
+      31.75,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D55": {
+    "source_coordinate_pad_center_mm": [
+      81.28,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D9": {
+    "source_coordinate_pad_center_mm": [
+      19.05,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D42": {
+    "source_coordinate_pad_center_mm": [
+      63.5,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D49": {
+    "source_coordinate_pad_center_mm": [
+      72.39,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D36": {
+    "source_coordinate_pad_center_mm": [
+      53.975,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D47": {
+    "source_coordinate_pad_center_mm": [
+      67.31,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D10": {
+    "source_coordinate_pad_center_mm": [
+      13.97,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "C1": {
+    "source_coordinate_pad_center_mm": [
+      11.43,
+      46.355
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D16": {
+    "source_coordinate_pad_center_mm": [
+      22.86,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D41": {
+    "source_coordinate_pad_center_mm": [
+      58.42,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "C4": {
+    "source_coordinate_pad_center_mm": [
+      49.57445,
+      47.28845
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "C2": {
+    "source_coordinate_pad_center_mm": [
+      67.50685,
+      46.9773
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D24": {
+    "source_coordinate_pad_center_mm": [
+      36.195,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "R3": {
+    "source_coordinate_pad_center_mm": [
+      40.13835,
+      77.7875
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 0.0
+  },
+  "D6": {
+    "source_coordinate_pad_center_mm": [
+      53.5813,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D44": {
+    "source_coordinate_pad_center_mm": [
+      58.42,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D30": {
+    "source_coordinate_pad_center_mm": [
+      45.72,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D50": {
+    "source_coordinate_pad_center_mm": [
+      67.31,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D54": {
+    "source_coordinate_pad_center_mm": [
+      81.28,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D37": {
+    "source_coordinate_pad_center_mm": [
+      54.61,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D35": {
+    "source_coordinate_pad_center_mm": [
+      49.53,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "C6": {
+    "source_coordinate_pad_center_mm": [
+      39.50335,
+      80.60055
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 0.0
+  },
+  "Q2": {
+    "source_coordinate_pad_center_mm": [
+      57.84215,
+      55.54345
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D46": {
+    "source_coordinate_pad_center_mm": [
+      67.31,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D17": {
+    "source_coordinate_pad_center_mm": [
+      22.86,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "Q1": {
+    "source_coordinate_pad_center_mm": [
+      75.76185,
+      55.2323
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 90.0
+  },
+  "D14": {
+    "source_coordinate_pad_center_mm": [
+      13.97,
+      27.89
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D22": {
+    "source_coordinate_pad_center_mm": [
+      31.75,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D8": {
+    "source_coordinate_pad_center_mm": [
+      60.7822,
+      69.0761
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D18": {
+    "source_coordinate_pad_center_mm": [
+      27.94,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "D12": {
+    "source_coordinate_pad_center_mm": [
+      19.05,
+      21.54
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  },
+  "IC4": {
+    "source_coordinate_pad_center_mm": [
+      38.15715,
+      55.54345
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 0.0
+  },
+  "D21": {
+    "source_coordinate_pad_center_mm": [
+      36.83,
+      15.19
+    ],
+    "fabrication_origin_mm": [
+      6.53415,
+      2.4892
+    ],
+    "rotation_degrees": 180.0
+  }
+}

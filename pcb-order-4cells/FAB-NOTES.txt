@@ -1,0 +1,51 @@
+REQUEST: FOUR (4) identical small Braille cell PCBs and ONE (1) large evaluation PCB.
+
+SMALL BOARD: Braille-Cell-Gerbers.zip
+Finished outline centerline dimensions: 7.620 x 29.718 mm.
+LARGE BOARD: Braille-Evaluation-Gerbers.zip
+Finished outline centerline dimensions: 98.01225 x 89.6112 mm.
+
+Both: 2-layer FR-4, nominal thickness 1.6 mm, 1 oz copper.
+Do not interpret the outer stroke bounding box as the routed board dimensions.
+Route on the CENTERLINE of Edge_Cuts. Small-board mechanical fit should be
+confirmed against the customer's already printed parts and chosen thickness.
+
+Capabilities required by checked design:
+- copper clearance >=0.1524 mm (6 mil)
+- copper to routed board edge >=0.30 mm
+- copper to non-plated drill >=0.20 mm
+- plated drill down to 0.35 mm
+- 1.27 mm header pitch, finished header drill 0.60 mm
+- local soldermask expansion 0.025 mm on the 1.27 mm headers
+
+SMALL BOARD: all TWELVE coil solder terminal holes must retain the supplied
+mask openings and EXPOSED COPPER ON BOTH SIDES. Do not tent, plug or fill these
+holes. The other three routing vias are tented.
+Small-board drilling: 27 PTH + 10 NPTH. Large-board drilling: 325 PTH + 4 NPTH.
+PTH and NPTH files are separate. No prebuilt panel is supplied.
+
+LARGE BOARD ASSEMBLY, IF REQUESTED:
+Use Evaluation-BOM-SMD.csv and Evaluation-Top-Centroid.csv together with the
+NEW large-board Gerbers. 72 SMD parts, all on TOP. Do not use the author's old
+centroid with this regenerated PCB. Coordinates use the same bottom-left
+fabrication origin as Gerber and drills; units are mm. Rotation follows KiCad
+footprint orientation; confirm pin 1/polarity against the assembly preview
+and your machine library before production.
+
+Hand-assembled parts are listed separately. Populate only the four Braille
+cell positions U$1-U$4; U$5-U$8 remain empty. Keep all 56 BAV99 diodes and the
+complete driver/decoder circuitry. Four cells require eight 2x3 / 1.27 mm
+male headers, and eight mating female sockets if removable mounting is used.
+
+BOM fixes: C1-C5=100nF; C6=1uF; R1=1k; R3=240R; J2 included.
+Use the specified FG package for Toshiba drivers, NOT FNG or PG.
+LCSC stock numbers are not assigned; source to the listed value/package/MPN.
+J1 barrel jack must match the actual THREE ROUND 1.0mm terminal holes and pad
+positions; see J1-footprint.svg. Do not choose a jack solely by plug diameter.
+
+Checks: both boards have ZERO error-level DRC violations and ZERO missing
+connections under the rules above. The large board retains 123 warnings
+(122 silkscreen-related and one via connected on one layer). Small board has
+zero warnings. Gerber silk has soldermask apertures subtracted. Gerber and
+Excellon geometry/drill counts were independently read back with gerbonara.
+No hardware build or supplier-specific DFM validation has been performed.
