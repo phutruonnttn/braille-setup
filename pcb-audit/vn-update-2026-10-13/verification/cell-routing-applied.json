@@ -1,0 +1,25 @@
+{
+  "board": "source/Braille-Cell.kicad_pcb",
+  "proposal_optimizer_success": true,
+  "proposal_worst_constraint_mm": -4.6891934779580424e-12,
+  "tracks_changed_this_run": 44,
+  "tracks_already_applied": 44,
+  "maximum_endpoint_movement_mm": 0.11470018859618236,
+  "unchanged_item_counts": {
+    "tracks": 88,
+    "vias": 3,
+    "footprints": 12,
+    "pads": 34,
+    "zones": 0
+  },
+  "changed_geometry": "track start/end coordinates only",
+  "unchanged": [
+    "nets",
+    "track widths",
+    "pads",
+    "vias",
+    "holes",
+    "outline",
+    "UUIDs"
+  ]
+}

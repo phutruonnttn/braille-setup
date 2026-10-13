@@ -1,0 +1,48 @@
+{
+  "Braille-Cell-Gerbers-VN-020mm.zip": {
+    "zip_crc_ok": true,
+    "outline_centerline_size_mm": [
+      7.62,
+      29.718
+    ],
+    "PTH_drills": {
+      "0.35": 15,
+      "0.6": 12
+    },
+    "NPTH_drills": {
+      "1.1": 6,
+      "1.6": 2,
+      "2.1": 2
+    },
+    "same_positive_origin": true,
+    "job_paths_exist": true
+  },
+  "Braille-Evaluation-Gerbers-VN-020mm.zip": {
+    "zip_crc_ok": true,
+    "outline_centerline_size_mm": [
+      98.01225,
+      89.6112
+    ],
+    "PTH_drills": {
+      "0.35": 183,
+      "0.6": 96,
+      "0.8": 36,
+      "0.813": 3,
+      "1.0": 3,
+      "1.016": 4
+    },
+    "NPTH_drills": {
+      "3.0": 4
+    },
+    "same_positive_origin": true,
+    "job_paths_exist": true
+  },
+  "Braille-Evaluation-PCBA-VN-020mm.zip": {
+    "zip_crc_ok": true,
+    "required_pcba_files_present": true
+  },
+  "Braille-PCB-Order-4-small-1-large-VN-020mm.zip": {
+    "zip_crc_ok": true,
+    "required_nested_archives_present": true
+  }
+}

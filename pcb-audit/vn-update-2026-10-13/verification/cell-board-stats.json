@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "date": "2026-10-13T13:02:31",
+    "generator": "KiCad 10.0.6",
+    "project": "Braille-Cell",
+    "board_name": "Braille-Cell"
+  },
+  "board": {
+    "has_outline": true,
+    "width": "7.6200 mm",
+    "height": "29.7180 mm",
+    "area": "225.65 mm²",
+    "front_component_density": "21.55",
+    "back_component_density": "21.55",
+    "front_copper_area": "56.782 mm²",
+    "back_copper_area": "52.165 mm²",
+    "min_track_clearance": "0.2010 mm",
+    "min_track_width": "0.2032 mm",
+    "min_drill_diameter": "0.3500 mm",
+    "board_thickness": "1.6000 mm",
+    "front_footprint_area": "48.626 mm²",
+    "back_footprint_area": "48.626 mm²",
+    "front_footprint_density": "21.55",
+    "back_footprint_density": "21.55"
+  },
+  "pads": {
+    "through_hole": 24,
+    "smd": 0,
+    "connector": 0,
+    "npth": 10,
+    "castellated": 0,
+    "press_fit": 0
+  },
+  "vias": {
+    "through": 3,
+    "blind": 0,
+    "buried": 0,
+    "micro": 0
+  },
+  "components": {
+    "tht": {
+      "front": 1,
+      "back": 0,
+      "total": 1
+    },
+    "smd": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "unspecified": {
+      "front": 11,
+      "back": 0,
+      "total": 11
+    },
+    "total": {
+      "front": 12,
+      "back": 0,
+      "total": 12
+    }
+  },
+  "drill_holes": [
+    {
+      "count": 12,
+      "shape": "Round",
+      "x_size": "0.6000 mm",
+      "y_size": "0.6000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    },
+    {
+      "count": 12,
+      "shape": "Round",
+      "x_size": "0.3500 mm",
+      "y_size": "0.3500 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    },
+    {
+      "count": 6,
+      "shape": "Round",
+      "x_size": "1.1000 mm",
+      "y_size": "1.1000 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    },
+    {
+      "count": 3,
+      "shape": "Round",
+      "x_size": "0.3500 mm",
+      "y_size": "0.3500 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "2.1000 mm",
+      "y_size": "2.1000 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "1.6000 mm",
+      "y_size": "1.6000 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    }
+  ]
+}

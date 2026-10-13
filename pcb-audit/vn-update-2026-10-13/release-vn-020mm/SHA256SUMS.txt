@@ -1,0 +1,5 @@
+ad2eaac3a0e89edf36cfc33d5b6a3808e3428a2dbf188a359b6f87866c0edd7b  Braille-Cell-Gerbers-VN-020mm.zip
+bad743ea17c4485954644bbe177ae07a20c4719a5d01de5773ae5e25a50d552f  Braille-Cell-KiCad-Source-VN-020mm.zip
+9765cd8d21c8b3a4c2084fe380f579f656905206c3db348ae710866bc47cc7b8  Braille-Evaluation-Gerbers-VN-020mm.zip
+08ae6c79d1274741d3d1f5c834a20afd0e7615c22e51fc04e0e03b7f84b86d69  Braille-Evaluation-PCBA-VN-020mm.zip
+0064bb063646ebdd586eaafec1f347ad590a19c9201cdb18604661b42e9cc236  Braille-PCB-Order-4-small-1-large-VN-020mm.zip

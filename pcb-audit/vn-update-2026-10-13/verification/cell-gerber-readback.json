@@ -1,0 +1,22 @@
+{
+  "independent_parser": "gerbonara",
+  "outline_centerline_size_mm": [
+    7.62,
+    29.718
+  ],
+  "required_layers_present": true,
+  "PTH_drills_by_diameter_mm": {
+    "0.35": 15,
+    "0.6": 12
+  },
+  "NPTH_drills_by_diameter_mm": {
+    "1.1": 6,
+    "1.6": 2,
+    "2.1": 2
+  },
+  "coil_terminals_verified": {
+    "top": 12,
+    "bottom": 12
+  },
+  "all_12_coil_terminals_have_copper_and_mask_openings_on_both_sides": true
+}

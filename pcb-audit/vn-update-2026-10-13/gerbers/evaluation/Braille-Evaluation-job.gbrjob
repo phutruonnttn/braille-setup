@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.7"
+      "Version": "10.0.6"
     },
-    "CreationDate": "2026-10-13T10:44:56+08:00"
+    "CreationDate": "2026-10-13T13:07:06+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -49,8 +49,18 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "Braille-Evaluation-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "Braille-Evaluation-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Braille-Evaluation-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
